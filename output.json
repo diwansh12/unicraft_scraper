@@ -1,0 +1,53 @@
+[
+    {
+        "url": "https://zerodha.com",
+        "company_name": "Zerodha: Online brokerage platform for stock trading & investing",
+        "emails": [],
+        "phones": [
+            "+91 80 4040 2020",
+            "+91 80 4718 1888",
+            "2010 - 2025",
+            "969489959890978",
+            "630713231906110"
+        ],
+        "description": "Online stock brokerage platform for trading and investing in stocks, futures, options, commodities, currency, ETFs, mutual funds, and bonds.",
+        "social_links": [
+            "https://facebook.com/zerodha.social",
+            "https://linkedin.com/company/zerodha",
+            "https://twitter.com/zerodhaonline"
+        ],
+        "tech_stack": [
+            "AWS"
+        ],
+        "focus_areas": [
+            "Zerodha Broking Ltd.: Member of NSE, BSE\u00e2\u0080\u008b &\u00e2\u0080\u008b MCX \u2013 SEBI\n\t\t\tRegistration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. \u2013 SEBI Registration no.: IN-DP-431-2019\n\t\t\tCommodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001\n\t\t\t\u2013 SEBI Registration no.: INZ000038238 Registered Address: Zerodha\n\t\t\tBroking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public\n\t\t\tSchool, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For\n\t\t\tany complaints pertaining to securities broking please write to[email\u00a0protected], for\n\t\t\tDP related to[email\u00a0protected]. Please\n\t\t\tensure you carefully read the Risk Disclosure Document as prescribed by\n\t\t\tSEBI | ICF",
+            "\"Prevent unauthorised transactions in your account. Update your mobile\n\t\t\tnumbers/email IDs with your stock brokers. Receive information of your\n\t\t\ttransactions directly from Exchange on your mobile/email at the end of\n\t\t\tthe day. Issued in the interest of investors. KYC is one time exercise\n\t\t\twhile dealing in securities markets - once KYC is done through a SEBI\n\t\t\tregistered intermediary (broker, DP, Mutual Fund etc.), you need not\n\t\t\tundergo the same process again when you approach another intermediary.\"\n\t\t\tDear Investor, if you are subscribing to an IPO, there is no need to\n\t\t\tissue a cheque. Please write the Bank account number and sign the IPO\n\t\t\tapplication form to authorize your bank to make payment in case of\n\t\t\tallotment. In case of non allotment the funds will remain in your bank\n\t\t\taccount. As a business we don't give stock tips, and have not authorized\n\t\t\tanyone to trade on behalf of others. If you find anyone claiming to be\n\t\t\tpart of Zerodha and offering such services, pleasecreate\n\t\t\t\ta ticket here.",
+            "Modern platforms and apps, \u00e2\u0082\u00b90 investments, and flat \u00e2\u0082\u00b920 intraday and F&O trades.",
+            "Explore our productsTry Kite demo",
+            "Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more."
+        ],
+        "market_positioning": "Free accountopening",
+        "competitors": []
+    },
+    {
+        "url": "https://cred.club",
+        "company_name": "CRED. not everyone gets it.",
+        "emails": [],
+        "phones": [
+            "883789393645",
+            "969857692718506",
+            "969857692718506",
+            "9315 74 83",
+            "8489 74 78",
+            "0 0 124 26"
+        ],
+        "description": "financial & lifestyle experiences crafted for the creditworthy.",
+        "social_links": [],
+        "tech_stack": [
+            "GCP"
+        ],
+        "focus_areas": [],
+        "market_positioning": "",
+        "competitors": []
+    }
+]
