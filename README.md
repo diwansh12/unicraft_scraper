@@ -1,57 +1,94 @@
-This is a lightweight web scraping tool built with Python to extract company details from either a search query or a list of seed URLs.
+# 🕵️‍♂️ Unicraft Scraper
+
+A powerful, extensible Python scraper that:
+
+- Searches DuckDuckGo or uses seed URLs
+- Scrapes company info: emails, phones, descriptions, social links
+- Extracts tech stack, market focus, positioning, and competitors
+- Handles dynamic (JavaScript) content using Selenium
+- Crawls internal pages (like /about, /products)
+- Supports command-line usage and automatic scheduling (via APScheduler)
+
+---
 
 ## 🚀 Features
-- Input a search query (e.g., "top SaaS startups India") or paste seed URLs
-- Extracts:
-  - Company name
-  - Website
-  - Contact info (email, phone)
-  - Meta description
-  - Social media links (LinkedIn, Twitter, Facebook)
-- Outputs results to `output.json`
 
-## 🧰 Tech Stack
-- Python 3
-- `requests`, `BeautifulSoup` for scraping
-- `duckduckgo_search` for query-based discovery
+- 🔍 DuckDuckGo search integration
+- ⚙️ Advanced scraping with BeautifulSoup + Selenium
+- 📊 Multi-level insights (tech, focus, market)
+- 🔁 Scheduled scraping every 6 hours
+- 📦 Outputs clean JSON file (`output.json`)
 
-## 📦 Installation
+---
+
+## 🛠 Installation
+
+1. **Clone the repo**:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/unicraft_scraper.git
+cd unicraft_scraper
+```
+
+2. **Install dependencies**:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## 📝 Usage
+3. **Add `chromedriver.exe`**
+
+- Download from: https://sites.google.com/chromium.org/driver/
+- Match it to your installed Chrome version
+- Place the `.exe` in the project root
+
+---
+
+## ⚙️ Usage
+
+### Run once with a query:
 ```bash
-python main.py
+python main.py --query "top SaaS companies India"
 ```
-Follow the prompts to enter a search query or paste URLs.
 
-## 📁 Output
-- A file named `output.json` will be generated with extracted company information.
+### Run with seed URLs:
+```bash
+python main.py --urls "https://zerodha.com, https://cred.club"
+```
 
-## ✅ Example Output
+### Run every 6 hours (scheduled):
+```bash
+python main.py --schedule
+```
+
+---
+
+## 📂 Output Format (`output.json`)
 ```json
-[
-  {
-    "url": "https://example.com",
-    "company_name": "Example Corp",
-    "emails": ["info@example.com"],
-    "phones": ["+1 800 123 4567"],
-    "description": "We help companies...",
-    "social_links": ["https://linkedin.com/company/example"]
-  }
-]
+{
+  "url": "https://example.com",
+  "company_name": "Example Inc.",
+  "emails": ["info@example.com"],
+  "phones": ["+91 12345 67890"],
+  "description": "India’s top SaaS platform...",
+  "social_links": ["https://linkedin.com/company/example"],
+  "tech_stack": ["React", "Node.js", "AWS"],
+  "focus_areas": ["Payment automation", "Digital banking"],
+  "market_positioning": "Trusted by 200+ businesses",
+  "competitors": ["Zoho", "Freshworks"]
+}
 ```
 
-## 🔧 Notes
-- For dynamic JavaScript-heavy sites, consider adding Selenium
-- This version focuses on core functionality; tech stack, projects, and competitors can be added in later enhancements
+---
+
+## 🧪 Dev Tips
+
+- 🧼 Don't commit `chromedriver.exe` or `output.json`
+- Add new tech terms to `extract_tech_stack()` in `scraper.py`
+- Add new patterns in `extract_focus_areas()` to improve results
 
 ---
 
-Feel free to expand with more scraping logic, UI, or data analysis features!
+## 📌 License
 
----
-
-**Author**: Diwansh Sood
-**Assignment**: Unicraft Tech Internship
+MIT © 2025 Diwansh Sood
